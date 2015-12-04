@@ -20,28 +20,28 @@
     <th scope="col">Price</th>
   </tr>
   <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td>test</td>
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td> 
   </tr>
   <tr>
-    <td></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td>test</td>
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td> 
+    <td>test</td> 
+    <td>test</td> 
   </tr>
 </table>
 </body>
