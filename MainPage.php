@@ -14,11 +14,11 @@
     
              <h1> INSANE CROW'S USED CAR LOT </h1>
 			 
-				<img src="../../../Desktop/Preview.jpg" width="383" height="317"  alt=""/>
+				<img src="../../../Desktop/Preview.jpg" width="383" height="330"  alt=""/>
 		   <p/>
-				<a href="UserLogin.php">USER</a>
+				<a href="UserLogin.php">USER LOGIN</a>
 				<p/>
-				<a href="CustLogin.php">CUSTOMER</a>
+				<a href="CustLogin.php">CUSTOMER SEARCH</a>
 
 				
          </center>

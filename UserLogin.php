@@ -11,11 +11,23 @@
 <body>
  <center>
     <h1> INSANE CROW'S USED CAR LOT </h1>
+    </center>
+    
+    
+    <center>
+    <img src="../../../Desktop/Crow CUT.png" width="425" height="603"  alt=""/>
+    </center>
+    
                  <form id="lab2" action="confirmation.php" method="post">
+       
+       <center>
         <input type="submit" name="user" value="User" title="User login button"/> 
-        <input type="submit" name="customer" value="Customer" title="Customer button"/> 
- 
- </center>
-
+      </center>  
+      
+      <center>
+        <input type="submit" name="customer" value="Administration" title="Customer button"/> 
+        </center>
+        
+        
 </body>
 </html>
