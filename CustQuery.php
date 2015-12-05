@@ -1,10 +1,12 @@
 <!doctype html>
 <html>
+<body>
 <head>
 <meta charset="utf-8">
 <title>Customer Page</title>
 
 <h1>Title</h1>
+
 
 <table width="200" border="1">
   <tr>
@@ -33,9 +35,8 @@
   </tr>
 </table>
 </title>
-</head>
 
-<body>
+
 </body>
 </html>
 
