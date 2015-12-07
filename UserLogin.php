@@ -1,33 +1,21 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tester</title>
-<!--    <link href="styles.css" rel="stylesheet" type="text/css" />		-->
-<!--	<script src = "Lab8.js" type ="text/javascript"></script>		-->
-<!-- Testing - Ricky -->    
-</head>
-
-<body>
- <center>
-    <h1> INSANE CROW'S USED CAR LOT </h1>
-    </center>
+<html>
+    <head>
+        <h1> Home page</h1>
+    </head>
     
-    
-    <center>
-    <img src="../../../Desktop/Crow CUT.png" width="425" height="603"  alt=""/>
-    </center>
-    
-
-       
-       <center>
-			<form id="Employee Query" action="EmpQuery.php" method="post">
-				<input type="submit" name="user" value="User" title="User login button"/> 
-			
-			<form id="Customer Query" action="CustQuery.php" method="post">
-				<input type="submit" name="customer" value="Administration" title="Customer button"/> 
-        </center>
+    <body>
+        <p>You are not logged in.</p>
         
+         <label for="Username"> Username:  &ensp; </label>
+             <input type="text" name="Username" id="Username"/>    
+                <br/>
         
-</body>
+             <label for="Password"> Password $ &ensp;  </label>
+             <input type="text" name="Password" id="Password"/>  
+                <br/>
+
+        <input type="submit" name = "Login" value="Login"/> 
+    </body>
+
+
 </html>

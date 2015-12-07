@@ -7,55 +7,6 @@
 		<h1> Employee Query </h1>
 	</head>
 
-<<<<<<< HEAD
-<body>
-<table width="200" border="1">
-  <tr>
-    <th scope="col">Location</th>
-    <th scope="col">Colour</th>
-    <th scope="col">Make</th>
-    <th scope="col">Model</th>
-    <th scope="col">Year</th>
-    <th scope="col">Km</th>
-    <th scope="col">Accident</th>
-    <th scope="col">Owners</th>
-    <th scope="col">Vin</th>
-    <th scope="col">Price</th>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-  </tr>
-</table>
-
-
-<input type="submit" name="search" value="Search da Lot" title="User login button"/> 
-
-</body>
-</html>
-
-
-
 <?php
 
                 if (isset($_POST['submit']))
@@ -87,9 +38,7 @@
                     }
 					
 					?>
-					
-                    <!-- Albert Stopped coding here (1:57am 12/05/2015 ) -->
-=======
+
 	<body>
 		<table width="200" border="1">
 			<tr>
@@ -137,4 +86,4 @@
 		</table>
 	</body>
 </html>
->>>>>>> origin/master
+

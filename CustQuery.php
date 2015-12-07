@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-<!doctype html>
-<html>
-<body>
-<head>
-<meta charset="utf-8">
-<title>Customer Page</title>
-
-<h1>Title</h1>
-
-
-<table width="200" border="1">
-  <tr>
-    <th scope="col">Pictures</th>
-    <th scope="col">Make</th>
-    <th scope="col">Model</th>
-    <th scope="col">Year</th>
-    <th scope="col">Colour</th>
-    <th scope="col">KM</th>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td> 
-    <td>test</td>
-    <td>test</td>
-  </tr>
-</table>
-</title>
-
-
-</body>
-=======
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -79,7 +37,4 @@
 			</tr>
 		</table>
 	</body>
->>>>>>> origin/master
 </html>
-
-<!-- Albert wuz here -->

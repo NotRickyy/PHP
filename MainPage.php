@@ -13,25 +13,10 @@
     
              <h1> INSANE CROW'S USED CAR LOT </h1>
 			 
-<<<<<<< HEAD
-				<img src="../../../Desktop/Preview.jpg" width="383" height="330"  alt=""/>
-		   <p/>
-				<a href="UserLogin.php">USER LOGIN</a>
-				<p/>
-				<a href="CustLogin.php">CUSTOMER SEARCH</a>
 
-=======
-				<!--<img src="../../../Desktop/Preview.jpg" width="383" height="317"  alt=""/> -->
-				<img src="1logo.jpg" width="50%" height="50%"  alt="Picture of cars"/>
+				<img src="logolol.jpg" width="25%" height="25%"  alt="Picture of cars"/>
 					<br/>
 				
-				<a href="UserLogin.php">USER</a>
-					<br/>
-					<br/>
-				<a href="CustQuery.php">CUSTOMER</a>
->>>>>>> origin/master
-				
-				<!-- Should vote on which style we want (links or buttons) -->
 				<p>
 					<form id="EmpLogin" action="UserLogin.php" method="post">
 						<input type="submit" name="user" value="User" title="User login button"/> 
