@@ -5,7 +5,7 @@
     <!--	<script src = "Lab8.js" type ="text/javascript"></script>		-->
 	
         <title> Main </title>
-		<link rel="shortcut icon" href="icon.png" />
+		<link rel="shortcut icon" href="Crow.jpg" />
     </head>
 
     <body>
