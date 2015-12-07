@@ -18,14 +18,14 @@
     <img src="../../../Desktop/Crow CUT.png" width="425" height="603"  alt=""/>
     </center>
     
-                 <form id="lab2" action="confirmation.php" method="post">
+
        
        <center>
-        <input type="submit" name="user" value="User" title="User login button"/> 
-      </center>  
-      
-      <center>
-        <input type="submit" name="customer" value="Administration" title="Customer button"/> 
+			<form id="Employee Query" action="EmpQuery.php" method="post">
+				<input type="submit" name="user" value="User" title="User login button"/> 
+			
+			<form id="Customer Query" action="CustQuery.php" method="post">
+				<input type="submit" name="customer" value="Administration" title="Customer button"/> 
         </center>
         
         
