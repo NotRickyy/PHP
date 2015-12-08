@@ -4,15 +4,15 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="Crow.jpg" />
 		<title>Employee Page </title>
-		<h1> Employee Query </h1>
+		<h1> Employee Query </h1> 
 	</head>
 
-<?php
+	<body>
+		<form id="lab3" action="EmpQuery.php" method="post">
+			<input type="submit" name="submit" value="Register">
+		</form>
 
-                if (isset($_POST['submit']))
-                {
-                    if ($_POST['submit'] == "Print all"){
-                    
+            <?php                 
                     $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dilbert.humber.ca)(PORT = 1521)))(CONNECT_DATA=(SID=grok)))" ;
 
                     $conn = oci_connect('N00839957', 'oracle', $db);
@@ -23,7 +23,7 @@
                     
 
                     // Prepare the statement
-                    $stid = oci_parse($conn, 'SELECT * FROM books');
+                    $stid = oci_parse($conn, 'SELECT * FROM insanecrow');
                     if (!$stid) {
                         $e = oci_error($conn);
                         trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
@@ -36,54 +36,56 @@
                         $e = oci_error($stid);
                         trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
                     }
-					
-					?>
 
-	<body>
-		<table width="200" border="1">
-			<tr>
-				<th scope="col">Picture</th>			
-				<th scope="col">Make</th>
-				<th scope="col">Model</th>
-				<th scope="col">Year</th>
-				<th scope="col">Colour</th>				
-				<th scope="col">KM</th>
-				<th scope="col">Location</th>				
-				<th scope="col">Accidents?</th>
-				<th scope="col">Owners</th>
-				<th scope="col">VIN</th>
-				<th scope="col">Price</th>
-			</tr>
-			
-			<tr>
-				<td>test</td>
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td>
-				<td>test</td>
-				<td>test</td>
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-			</tr>
-			
-			<tr>
-				<td>test</td>
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td>
-				<td>test</td>
-				<td>test</td>
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-				<td>test</td> 
-			</tr>
-			
-		</table>
+                    // Fetch the results of the query
+                    print "<table border='1'>\n";
+					print "<th>Make</th>";
+					print "<th>Model</th>";
+					print "<th>Year</th>";
+					print "<th>Colour</th>";
+					print "<th>KM</th>";
+					print "<th>Location</th>";
+					print "<th>Accidents</th>";
+					print "<th>Owners</th>";
+					print "<th>VIN</th>";
+					print "<th>Price</th>";
+					
+					
+                    while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+						
+                        print "<tr>\n";
+                        foreach ($row as $item) {
+                            print "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
+                        }
+                        print "</tr>\n";
+                    }
+                    print "</table>\n";
+
+                    oci_free_statement($stid);
+                    oci_close($conn);
+                               
+                if (isset($_POST['submit']))
+                {					
+					
+                    if ($_POST['submit'] == "Register"){
+                        
+                        $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dilbert.humber.ca)(PORT = 1521)))(CONNECT_DATA=(SID=grok)))" ;
+
+                        $conn = oci_connect('N00839957', 'oracle', $db);
+                        if (!$conn) {
+                            $e = oci_error();
+                            trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+                        }
+
+                        $stid = oci_parse($conn, "INSERT INTO books ('".$_POST["ISBN"]."', '".$_POST["Author"]."', '".$_POST["Title"]."', '".$_POST["Price"]."')");
+                        if (!$stid) {
+                            $e = oci_error($conn);
+                            trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+                        }
+                    }
+                        
+                }
+
+            ?>   	  
 	</body>
 </html>
-

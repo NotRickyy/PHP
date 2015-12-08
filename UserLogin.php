@@ -3,7 +3,7 @@
     <head>
 		<title> Login </title>
 		<link rel="shortcut icon" href="Crow.jpg" />	
-        <h1> Home page</h1>
+        <h1> LOGIN</h1>
     </head>
     
     <body>
@@ -20,8 +20,16 @@
         <input type="submit" name = "Login" value="Login"/> 
 		<br/>
 		<br/>
-		<input type="submit" name = "Register" value="Register New User"/>     
+		
+		<form id="Register" action="Register.php" method="post">		
+			<input type="submit" name = "Register" value="Register New User"/>     
+		</form>
 	</body>
 
+	
+	
+					<form id="EmpQuery" action="EmpQuery.php" method="post">				
+						<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY
+					</form>		
 
 </html>

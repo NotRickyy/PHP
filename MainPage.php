@@ -14,7 +14,7 @@
              <h1> INSANE CROW'S USED CAR LOT </h1>
 			 
 
-				<img src="logolol.jpg" width="25%" height="25%"  alt="Picture of cars"/>
+				<img src="logo.jpg" width="25%" height="25%"  alt="Picture of cars"/>
 					<br/>
 				
 				<p>
