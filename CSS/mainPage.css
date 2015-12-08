@@ -1,0 +1,149 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #666;
+}
+#wrapper {
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #666;
+}
+#top {
+	overflow: hidden;
+	background-color: #000;
+	
+}
+#hero img {
+	max-width: 100%;
+	/* [disabled]padding-top: 25px; */
+}
+h1, h2 {
+	color: #43A6CB;
+	font-style: normal;
+	font-weight: 600;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+
+h1 {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#main {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+#sidebar {
+	width: 34%;
+	margin-left: 4%;
+	float: left;
+}
+
+figure {
+	display: block;
+	width: 420px;
+}
+figure img {
+	padding: 10px;
+	box-shadow: 1px 1px 15px #999999;
+	width: 500px;
+	height: 300px;
+	margin-right: 1000px;
+}
+
+figcaption {
+	font-size: 0.875em;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 0.5em;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.floatright {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+footer {
+	padding-top: 4px;
+	padding-bottom: 7px;
+	padding-left: 2%;
+	background-color: #000000;
+	color: #43A6CB;
+	clear: left;
+	text-align: center;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF944C;
+
+}
+a:hover, a:active, a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+	background-color: #EEEEEE;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #4d4d4d;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-left: 100px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	background-color: #000000;
+	text-decoration: none;
+}
+
+.clock {
+	background-color: #000;
+	border: #999 2px inset;
+	padding: 6px;
+	color: #0FF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	display: inline;
+	margin-left: 315px;	
+}

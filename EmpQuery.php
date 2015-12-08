@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8">
-		<link rel="shortcut icon" href="Crow.jpg" />
+		<link rel="shortcut icon" href="icon.png" />
 		<title>Employee Page </title>
 		<h1> Employee Query </h1> 
 	</head>
