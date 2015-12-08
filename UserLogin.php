@@ -22,17 +22,19 @@
   </header>
     
     <body>
-    
+     
     <form>
     <legend>You are not logged in.</legend>
     <fieldset>
        
-        
+       
          <label for="Username"> Username:  </label><br/>
              <input type="text" name="Username" id="Username"/>    
                 <br/>
         
-             <label for="Password"> Password:  </label>
+<label for="Password"> Password:  </label>
+             <p>If you experience any login issues, please contact your administrator.
+             </p>
              <br/>
              <input type="text" name="Password" id="Password"/>  
                 <br/>
@@ -41,16 +43,29 @@
         <input type="submit" name = "Login" value="Login"/> 
 		<br/>
 		<br/>
+        <input type="submit" name = "Register" value="Register New User"/>  
+        <br/>
+        <br/>
 		
 		<form id="Register" action="Register.php" method="post">		
-			<input type="submit" name = "Register" value="Register New User"/>     
+			   
 		</form>
-	</body>
+        
+        <footer>
+    <p>© Copyright 2015 C.C Used Car Lot</p>
+  </footer>
+  <div id="date_time" class="clock"> 
+    <script type="text/javascript">window.onload = date_time('date_time');</script> 
+  </div>
+  <p> </a> </p>
+</div>
+        
+</body>
 
 	
 	
 					<form id="EmpQuery" action="EmpQuery.php" method="post">				
-						<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY
+		<!--				<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY		-->
 					</form>		
                     
                     </fieldset>

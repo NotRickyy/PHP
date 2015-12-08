@@ -70,5 +70,14 @@
                     oci_close($conn);
             ?>     
 			</center>
+            
+            <footer>
+    <p>© Copyright 2015 C.C Used Car Lot</p>
+  </footer>
+  <div id="date_time" class="clock"> 
+    <script type="text/javascript">window.onload = date_time('date_time');</script> 
+  </div>
+  <p> </a> </p>
+</div>
  </body>
 </html>
