@@ -21,14 +21,20 @@
   </header>
     
     <body>
-        <p>You are not logged in.</p>
+    
+    <form>
+    <legend>You are not logged in.</legend>
+    <fieldset>
+       
         
-         <label for="Username"> Username:  &ensp; </label>
+         <label for="Username"> Username:  </label><br/>
              <input type="text" name="Username" id="Username"/>    
                 <br/>
         
-             <label for="Password"> Password:  &ensp;  </label>
+             <label for="Password"> Password:  </label>
+             <br/>
              <input type="text" name="Password" id="Password"/>  
+                <br/>
                 <br/>
 
         <input type="submit" name = "Login" value="Login"/> 
@@ -45,5 +51,8 @@
 					<form id="EmpQuery" action="EmpQuery.php" method="post">				
 						<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY
 					</form>		
+                    
+                    </fieldset>
+                    </form>
 
 </html>
