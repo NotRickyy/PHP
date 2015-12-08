@@ -1,34 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    <!--    <link href="styles.css" rel="stylesheet" type="text/css" />		-->
-    <!--	<script src = "Lab8.js" type ="text/javascript"></script>		-->
-	
-        <title> Main </title>
-		<link rel="shortcut icon" href="icon.png" />
-    </head>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CRAZY CROW'S</title>
+<link href="CSS/mainPage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="JavaScript/Clock.js"></script>
 
-    <body>
-         <center>
-    
-             <h1> INSANE CROW'S USED CAR LOT </h1>
-			 
 
-				<img src="logolol.jpg" width="25%" height="25%"  alt="Picture of cars"/>
-					<br/>
-				
-				<p>
-					<form id="EmpLogin" action="UserLogin.php" method="post">
-						<input type="submit" name="user" value="User" title="User login button"/> 
-					</form>
-					
-					<br/>
-					
-					 <form id="CustQuery.php" action="CustQuery.php" method="post">				
-						<input type="submit" name="customer" value="Customer" title="Customer button"/> 
-					</form>				
-				</p>
-         </center>
 
-    </body>
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="top">
+    <h1>CRAZY CROW'S USED CAR LOT</h1>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="#" class="thispage">Home</a></li>
+        <li><a href="about.html">
+        Customer</a></li>
+        <li><a href="portfolio.html">
+        Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+    <img src="Images/UsedCar.jpg" width="1000" height="426"  alt=""/>
+<footer>
+    <p>© Copyright 2015 C.C Used Car Lot</p>
+  </footer>
+  <div id="date_time" class="clock">
+  <script type="text/javascript">window.onload = date_time('date_time');</script>
+  </div>
+  <p>
+
+</a>
+</p>
+</div>
+</body>
 </html>
