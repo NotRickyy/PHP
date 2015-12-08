@@ -80,28 +80,6 @@
                     oci_free_statement($stid);
                     oci_close($conn);
                                
-                if (isset($_POST['submit']))
-                {					
-					
-                    if ($_POST['submit'] == "Register"){
-                        
-                        $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dilbert.humber.ca)(PORT = 1521)))(CONNECT_DATA=(SID=grok)))" ;
-
-                        $conn = oci_connect('N00839957', 'oracle', $db);
-                        if (!$conn) {
-                            $e = oci_error();
-                            trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
-                        }
-
-                        $stid = oci_parse($conn, "INSERT INTO books ('".$_POST["ISBN"]."', '".$_POST["Author"]."', '".$_POST["Title"]."', '".$_POST["Price"]."')");
-                        if (!$stid) {
-                            $e = oci_error($conn);
-                            trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
-                        }
-                    }
-                        
-                }
-
             ?>   	  
 			</center>
 	</body>
