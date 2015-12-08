@@ -4,11 +4,13 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="icon.png" />
 		<title>Employee Page </title>
-		<h1> Employee Query </h1> 
+
 	</head>
 
 	<body>
-		<form id="lab3" action="EmpQuery.php" method="post">
+				<center>
+						<h1> Employee Query </h1> 
+		<form id="RegQuery" action="RegQuery.php" method="post">
 			<input type="submit" name="submit" value="Register">
 		</form>
 
@@ -87,5 +89,6 @@
                 }
 
             ?>   	  
+			</center>
 	</body>
 </html>
