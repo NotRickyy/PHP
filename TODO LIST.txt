@@ -1,0 +1,9 @@
+- Add a delete button to remove X from the table
+- RegQuery should check for errors / have all fields filled before adding to table
+- Preferably different CSS pages for each page (Time permitting, unlikely to get done)
+- Colour the tables, make them stand out more. 
+- Create a working log out button
+- Create delete user button
+- Make buttons check DB
+- Add X to DB
+- Suffer and die
