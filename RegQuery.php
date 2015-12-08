@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
@@ -18,6 +19,17 @@
       </ul>
     </nav>
   </header>
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="CSS/mainPage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="JavaScript/Clock.js"></script>
+	<head>
+		<title>Add Car</title>
+		<link rel="shortcut icon" href="Crow.jpg" />
+		<h1>Add Car</h1>
+	</head>
+>>>>>>> origin/master
 
 	<body>
     

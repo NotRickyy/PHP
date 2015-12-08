@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>CRAZY CROW'S</title>
+<link rel="shortcut icon" href="Crow.jpg" />
 <link href="CSS/mainPage.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="JavaScript/Clock.js"></script>
 </head>
