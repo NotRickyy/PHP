@@ -1,32 +1,31 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>CRAZY CROW'S</title>
-<link rel="shortcut icon" href="Crow.jpg" />
-<link href="CSS/mainPage.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="JavaScript/Clock.js"></script>
-</head>
-
-<body>
-<div id="wrapper">
-  <header id="top">
-    <h1>CRAZY CROW'S USED CAR LOT</h1>
-    <nav id="mainnav">
-      <ul>
-        <li><a href="MainPage.php" class="thispage">Home</a></li>
-        <li><a href="CustQuery.php"> Customer</a></li>
-        <li><a href="UserLogin.php"> Admin</a></li>
-      </ul>
-    </nav>
-  </header>
+	<head>
+		<meta charset="utf-8">
+		<title>CRAZY CROW'S</title>
+		<link rel="shortcut icon" href="Crow.jpg" />
+		<link href="CSS/mainPage.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="JavaScript/Clock.js"></script>
+	</head>
 
 	<body>
-				<center>
-						<h1> Employee Query </h1> 
-		<form id="RegQuery" action="RegQuery.php" method="post">
-			<input type="submit" name="submit" value="Register">
-		</form>
+		<div id="wrapper">
+			<header id="top">
+				<h1>CRAZY CROW'S USED CAR LOT</h1>
+				<nav id="mainnav">
+					<ul>
+						<li><a href="MainPage.php" class="thispage">Home</a></li>
+						<li><a href="CustQuery.php"> Customer</a></li>
+						<li><a href="UserLogin.php"> Admin</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<center>
+				<h1> Employee Query </h1> 
+				<form id="RegQuery" action="RegQuery.php" method="post">
+					<input type="submit" name="submit" value="Register">
+
 
             <?php                 
                     $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = dilbert.humber.ca)(PORT = 1521)))(CONNECT_DATA=(SID=grok)))" ;
@@ -80,17 +79,20 @@
                     oci_free_statement($stid);
                     oci_close($conn);
                                
-            ?>   	  
+            ?>   	  					
+					
+				</form>
 			</center>
-<!--            
-            <footer>
-    <p>© Copyright 2015 C.C Used Car Lot</p>
-  </footer>
-  <div id="date_time" class="clock"> 
-    <script type="text/javascript">window.onload = date_time('date_time');</script> 
-  </div>
-  <p> </a> </p>
-  -->
-</div>
+					   
+			<footer>
+				<p>© Copyright 2015 C.C Used Car Lot</p>
+			</footer>
+			<div id="date_time" class="clock"> 
+				<script type="text/javascript">window.onload = date_time('date_time');</script> 
+			</div>
+			<p> </a> </p>
+		</div>
 	</body>
 </html>
+
+
