@@ -23,7 +23,7 @@
     
     <body>
      
-    <form>
+
     <legend>You are not logged in.</legend>
     <fieldset>
        
@@ -39,16 +39,15 @@
              <input type="text" name="Password" id="Password"/>  
                 <br/>
                 <br/>
+		<form id="Register" action="EmpQuery.php" method="post">			
+			<input type="submit" name = "Login" value="Login"/> 
+		</form>
+		<br/>
+		<br/>
 
-        <input type="submit" name = "Login" value="Login"/> 
-		<br/>
-		<br/>
-        <input type="submit" name = "Register" value="Register New User"/>  
-        <br/>
-        <br/>
 		
 		<form id="Register" action="Register.php" method="post">		
-			   
+        <input type="submit" name = "Register" value="Register New User"/>  	   
 		</form>
         
         <footer>
@@ -65,10 +64,10 @@
 	
 	
 					<form id="EmpQuery" action="EmpQuery.php" method="post">				
-		<!--				<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY		-->
+				<input type="submit" name="Emp" value="Emp" title="Test button"/> //REMOVE THIS BUTTON ON FINISHED COPY	
 					</form>		
                     
                     </fieldset>
-                    </form>
+
 
 </html>

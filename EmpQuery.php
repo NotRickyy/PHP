@@ -82,7 +82,7 @@
                                
             ?>   	  
 			</center>
-            
+<!--            
             <footer>
     <p>© Copyright 2015 C.C Used Car Lot</p>
   </footer>
@@ -90,6 +90,7 @@
     <script type="text/javascript">window.onload = date_time('date_time');</script> 
   </div>
   <p> </a> </p>
+  -->
 </div>
 	</body>
 </html>

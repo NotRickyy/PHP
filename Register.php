@@ -41,7 +41,7 @@
 		
 		
 		<form id="EmpLogin" action="UserLogin.php" method="post">
-		<input type="submit" name = "Register" value="Register New User"/>
+		<input type="submit" name = "Register" value="Register"/>
 		// MAKE BUTTON CHECK IF PASSWORDS = PASSWORDS, ADD TO DATABASE
 		</form>		
         
@@ -53,6 +53,28 @@
   </div>
   <p> </a> </p>
 </div>
+<?php
+if ((isset($_POST['Register']) ? $_POST['Register'] : null)=="Register") {
 
+    if (((isset($_POST['ISBN']) ? $_POST['ISBN'] : null)!=null)
+       && ((isset($_POST['Author']) ? $_POST['Author'] : null)!=null)
+       && ((isset($_POST['Title']) ? $_POST['Title'] : null)!=null)
+       && ((isset($_POST['Price']) ? $_POST['Price'] : null)!=null))
+    {
+        $isbn = $_POST['ISBN']; 
+        $author = $_POST['Author']; 
+        $title = $_POST['Title']; 
+        $price = floatval($_POST['Price']);
+        $cmd = "INSERT INTO books values 
+        (:isbn_bv, :author_bv, :title_bv, :price_bv)";
+        $stid = oci_parse($c, $cmd);
+        oci_bind_by_name($stid, ":isbn_bv", $isbn);
+        oci_bind_by_name($stid, ":author_bv", $author);
+        oci_bind_by_name($stid, ":title_bv", $title);
+        oci_bind_by_name($stid, ":price_bv", $price);
+        oci_execute($stid) or die (oci_error());
+    }
+}
+?>
 	</body>
 </html>
